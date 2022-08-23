@@ -18,6 +18,5 @@ jobs:
         node-version: '16.x'
     - run: npm install -g free-programming-books-lint
     - run: fpb-lint ./books/
-    - run: fpb-lint ./casts/
     - run: fpb-lint ./courses/
     - run: fpb-lint ./more/
